@@ -1,0 +1,477 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Sustainability
+{% endblock title %}
+
+{% block content %}
+<main>
+    <!-- Hero Start -->
+    <div class="slider-area2" style="background-image: url('/static/img/hero/marcin-jozwiak-NdMcz5d74Ak-unsplash.jpg'); background-size: cover; background-position: center;">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap hero-cap2 text-center">
+                            <h2>Our Commitment to Sustainability</h2>
+                            <p class="text-white">Driving Innovation for a Greener Future</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sustainability Initiatives Start -->
+    <section class="about-low-area section-padding40">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-9">
+                    <div class="section-tittle text-center mb-50">
+                        <span class="element">Sustainability at NovoAgro LLP</span>
+                        <h2>Integrating Sustainable Practices into Every Aspect of Our Operations</h2>
+                        <p class="mt-3">As a leader in the oil refining industry, NovoAgro LLP is dedicated to minimizing our environmental footprint while maximizing social and economic benefits. We believe that sustainability is not just a responsibility but an opportunity to innovate and lead.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Initiative 1 -->
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="sustainability-card">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h5>Clean Production</h5>
+                        <p>Advanced manufacturing processes that reduce emissions and promote cleaner air quality standards.</p>
+                        <div class="hover-indicator"></div>
+                    </div>
+                </div>
+                <!-- Initiative 2 -->
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="sustainability-card">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <h5>Circular Economy</h5>
+                        <p>Implementing zero-waste initiatives and transforming waste into valuable resources.</p>
+                        <div class="hover-indicator"></div>
+                    </div>
+                </div>
+                <!-- Initiative 3 -->
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="sustainability-card">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h5>Water Stewardship</h5>
+                        <p>Smart water management systems and advanced filtration technologies.</p>
+                        <div class="hover-indicator"></div>
+                    </div>
+                </div>
+                <!-- Initiative 4 -->
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="sustainability-card">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h5>Energy Innovation</h5>
+                        <p>Investing in efficient energy systems and renewable power solutions.</p>
+                        <div class="hover-indicator"></div>
+                    </div>
+                </div>
+                <!-- Initiative 5 -->
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="sustainability-card">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h5>Social Impact</h5>
+                        <p>Building stronger communities through education and sustainable development programs.</p>
+                        <div class="hover-indicator"></div>
+                    </div>
+                </div>
+                <!-- Initiative 6 -->
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="sustainability-card">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h5>Environmental Care</h5>
+                        <p>Protecting local ecosystems and promoting biodiversity conservation.</p>
+                        <div class="hover-indicator"></div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .sustainability-card {
+                    background: #fff;
+                    padding: 2rem;
+                    border-radius: 10px;
+                    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+                    transition: all 0.3s ease;
+                    position: relative;
+                    overflow: hidden;
+                    height: 100%;
+                }
+
+                .sustainability-card:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+                }
+
+                .icon-wrapper {
+                    width: 70px;
+                    height: 70px;
+                    background: linear-gradient(45deg, #ff5f13, #ff8f50);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 auto 1.5rem;
+                }
+
+                .icon-wrapper i {
+                    font-size: 28px;
+                    color: white;
+                }
+
+                .sustainability-card h5 {
+                    color: #2d3436;
+                    margin-bottom: 1rem;
+                    font-weight: 600;
+                    text-align: center;
+                }
+
+                .sustainability-card p {
+                    color: #636e72;
+                    line-height: 1.6;
+                    text-align: center;
+                    margin-bottom: 0;
+                }
+
+                .hover-indicator {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 3px;
+                    background: linear-gradient(45deg, #ff5f13, #ff8f50);
+                    transform: scaleX(0);
+                    transition: transform 0.3s ease;
+                }
+
+                .sustainability-card:hover .hover-indicator {
+                    transform: scaleX(1);
+                }
+            </style>
+        </div>
+    </section>
+    <!-- Sustainability Initiatives End -->
+
+    <!-- Sustainability Reports Start -->
+
+    <!-- Performance Metrics Section -->
+    <section class="metrics-section section-padding40">
+        <div class="container">
+            <div class="row justify-content-center mb-50">
+                <div class="col-xl-8">
+                    <div class="section-tittle text-center">
+                        <span class="element">Performance Metrics</span>
+                        <h2>Our Environmental Impact</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Chart Container -->
+                <div class="col-lg-6 mb-4">
+                    <div class="chart-card">
+                        <canvas id="emissionsChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="chart-card">
+                        <canvas id="waterUsageChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            <!-- Key Metrics -->
+            <div class="row mt-4">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="metric-value" data-value="75">0</div>
+                        <div class="metric-label">Carbon Reduction</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <div class="metric-value" data-value="80">0</div>
+                        <div class="metric-label">Renewable Energy</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <div class="metric-value" data-value="95">0</div>
+                        <div class="metric-label">Waste Recycled</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="metric-value" data-value="60">0</div>
+                        <div class="metric-label">Water Saved</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+    .chart-card {
+        background: #fff;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        height: 100%;
+    }
+
+    .metric-card {
+        background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+    .metric-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .metric-icon {
+        font-size: 2rem;
+        color: #ff5f13;
+        margin-bottom: 15px;
+    }
+
+    .metric-value {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #2d3436;
+        margin-bottom: 10px;
+    }
+
+    .metric-label {
+        color: #636e72;
+        font-size: 1rem;
+    }
+
+    @media (max-width: 768px) {
+        .metric-card {
+            margin-bottom: 20px;
+        }
+    }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Emissions Chart
+        new Chart(document.getElementById('emissionsChart'), {
+            type: 'line',
+            data: {
+                labels: ['2019', '2020', '2021', '2022', '2023'],
+                datasets: [{
+                    label: 'CO2 Emissions (tons)',
+                    data: [1000, 850, 700, 500, 300],
+                    borderColor: '#ff5f13',
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Annual CO2 Emissions'
+                    }
+                }
+            }
+        });
+
+        // Water Usage Chart
+        new Chart(document.getElementById('waterUsageChart'), {
+            type: 'bar',
+            data: {
+                labels: ['2019', '2020', '2021', '2022', '2023'],
+                datasets: [{
+                    label: 'Water Usage (kL)',
+                    data: [5000, 4200, 3800, 3000, 2500],
+                    backgroundColor: '#ff8f50'
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Annual Water Consumption'
+                    }
+                }
+            }
+        });
+
+        // Animate metrics
+        const metrics = document.querySelectorAll('.metric-value');
+        metrics.forEach(metric => {
+            const target = parseInt(metric.dataset.value);
+            let current = 0;
+            const increment = target / 50;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    clearInterval(timer);
+                    current = target;
+                }
+                metric.textContent = Math.round(current) + '%';
+            }, 40);
+        });
+    });
+    </script>
+    <!-- Sustainability Reports End -->
+
+    <!-- Call to Action Start -->
+    <section class="wantToWork-area sustainability-cta">
+        <div class="container">
+            <div class="wants-wrapper cta-container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-7 col-lg-8 col-md-8">
+                        <div class="wantToWork-caption wantToWork-caption2">
+                            <h2 class="cta-title">Let's Build a Sustainable Future Together</h2>
+                            <p class="cta-text">Join us in our mission to create innovative solutions for a greener tomorrow. Discover how our sustainable practices can benefit your business.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-4 col-md-4 text-center">
+                        <a href="/contact" class="btn eco-btn">
+                            <span class="btn-text">Partner With Us</span>
+                            <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+        .sustainability-cta {
+            background: linear-gradient(135deg, #1a5f7a 0%, #2d8659 100%);
+            padding: 80px 0;
+            margin: 40px 0;
+        }
+
+        .cta-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 50px 40px;
+        }
+
+        .cta-title {
+            color: #ffffff;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .cta-text {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .eco-btn {
+            background: linear-gradient(45deg, #2ecc71, #27ae60);
+            color: white !important;
+            padding: 15px 35px;
+            border-radius: 50px;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3);
+        }
+
+        .eco-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(46, 204, 113, 0.4);
+            color: white !important;
+        }
+
+        .eco-btn .arrow {
+            font-size: 20px;
+            margin-left: 8px;
+            display: inline-block;
+            line-height: 1;
+        }
+
+        @media (max-width: 768px) {
+            .cta-container {
+                padding: 30px 20px;
+            }
+            
+            .cta-title {
+                font-size: 2rem;
+            }
+            
+            .eco-btn {
+                margin-top: 20px;
+            }
+        }
+    </style>
+    <!-- Call to Action End -->
+</main>
+
+<style>
+/* Additional styles for the sustainability page */
+.single-report {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.single-report:hover {
+    transform: translateY(-5px);
+}
+
+.single-report .report-icon {
+    color: #ff5f13;
+}
+
+.single-report h5 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .hero-cap h2 {
+        font-size: 32px;
+    }
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+{% endblock content %}

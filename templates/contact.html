@@ -1,0 +1,224 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact Us{% endblock title %}
+
+{% block content %}
+<main>
+    <!-- Hero Start -->
+    <div class="slider-area2" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/static/img/hero/pop-zebra-wp81DxKUd1E-unsplash.jpg'); background-size: cover; background-position: center;">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap hero-cap2 text-center">
+                            <h2>Contact NovoAgro LLP</h2>
+                            <p class="text-white">Let's Discuss Your Refining Requirements</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Contact Information Start -->
+    <section class="contact-info-area section-padding40">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-xl-8">
+                    <div class="section-tittle text-center mb-50">
+                        <span class="element">Get In Touch</span>
+                        <h2>We're Here to Help</h2>
+                        <p class="mt-3">Our team of experts is ready to assist you with any inquiries about our refining services, technical capabilities, or partnership opportunities.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-info-box text-center mb-30">
+                        <div class="info-icon mb-4">
+                            <i class="fas fa-map-marker-alt fa-2x"></i>
+                        </div>
+                        <h4>Our Location</h4>
+                        <p>192 / 2 Dostyk Avenue<br>Almaty 050000</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-info-box text-center mb-30">
+                        <div class="info-icon mb-4">
+                            <i class="fas fa-phone-alt fa-2x"></i>
+                        </div>
+                        <h4>Contact Details</h4>
+                        <p>Phone: +7 778 190 07 64 <br>Email: sales@novoagrollp.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-info-box text-center mb-30">
+                        <div class="info-icon mb-4">
+                            <i class="fas fa-clock fa-2x"></i>
+                        </div>
+                        <h4>Operating Hours</h4>
+                        <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 2:00 PM<br>24/7 Emergency Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Information End -->
+
+    <!-- Contact Form Start -->
+    <section class="contact-form-area section-padding40 gray-bg">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-7">
+                    <div class="form-wrapper">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="section-tittle mb-30">
+                                    <h2>Send Us a Message</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <form id="contact-form" action="/sendmail" method="POST" class="contact-form">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-box mb-15">
+                                        <input type="text" name="name" placeholder="Full Name" required minlength="2" maxlength="100">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-box mb-15">
+                                        <input type="email" name="email" placeholder="Email Address" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-box mb-15">
+                                        <input type="tel" name="phone" placeholder="Phone Number" required pattern="[0-9+\s-]{8,}">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="select-itms mb-15">
+                                        <select name="subject" required>
+                                            <option value="">Select Inquiry Type</option>
+                                            <option value="Refining Services">Refining Services</option>
+                                            <option value="Technical Support">Technical Support</option>
+                                            <option value="Business Partnership">Business Partnership</option>
+                                            <option value="Quality Control">Quality Control</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-box mb-15">
+                                        <textarea name="message" placeholder="Your Message" required minlength="10" maxlength="1000"></textarea>
+                                    </div>
+                                    <div class="submit-info">
+                                        <button class="submit-btn2" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-support-box">
+                        <h3>Why Choose Us</h3>
+                        <ul class="support-list">
+                            <li><i class="fas fa-check-circle"></i> 20+ Years of Industry Excellence</li>
+                            <li><i class="fas fa-check-circle"></i> 24/7 Technical Support</li>
+                            <li><i class="fas fa-check-circle"></i> ISO Certified Processes</li>
+                            <li><i class="fas fa-check-circle"></i> Global Market Presence</li>
+                            <li><i class="fas fa-check-circle"></i> Advanced Technology</li>
+                        </ul>
+                        <div class="emergency-contact mt-40">
+                            <h4>Emergency Contact</h4>
+                            <p class="phone">+7 778 190 07 64</p>
+                            <p class="email">sales@novoagrollp.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Form End -->
+</main>
+
+<style>
+.contact-info-box {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+.info-icon {
+    color: #ff5f13;
+}
+
+.contact-info-box h4 {
+    margin-bottom: 20px;
+}
+
+.contact-support-box {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+
+.support-list {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.support-list li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.support-list li i {
+    color: #ff5f13;
+    margin-right: 10px;
+}
+
+.emergency-contact {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.emergency-contact .phone {
+    font-size: 24px;
+    color: #ff5f13;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-box input,
+.form-box textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.form-box textarea {
+    height: 150px;
+}
+
+.select-itms select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .contact-support-box {
+        margin-top: 30px;
+    }
+}
+</style>
+{% endblock content %}
